@@ -1,2 +1,2 @@
-# PoetryApp
-Project 1 for Media App Class - This is a Magnetic Poetry App designed for those who like to use fridge magnets. The app gives you the constraints that inspire you by using random generation from a dictionary. However it also allows for freedom in your creativity by giving you the ability to edit the dictionary. 
+# Fridge Poetry
+Fridge Poetry is an app craeted for iOS. In this app users can express themselves by creating poetry from random words. You can take screenshots and share with your friends. You can also give your poems background images. Users are able to manage their dictionary by adding custom words and phrases and deleting words they do not want to appear.
