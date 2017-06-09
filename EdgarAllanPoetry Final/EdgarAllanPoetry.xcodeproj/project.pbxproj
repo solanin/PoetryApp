@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A0A17E61E54D89F00397AA2 /* WordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A17E51E54D89F00397AA2 /* WordListVC.swift */; };
+		8A0A17E81E54E77100397AA2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A17E71E54E77100397AA2 /* Lists.swift */; };
+		8A0EC4CE1E5B685E005F8676 /* DefautsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0EC4CD1E5B685E005F8676 /* DefautsManager.swift */; };
+		E80508171E5CB8370080E9FD /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80508161E5CB8370080E9FD /* Poem.swift */; };
+		E80508191E5CC0DB0080E9FD /* LoadListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80508181E5CC0DB0080E9FD /* LoadListVC.swift */; };
+		E8085D301E538BA100D58018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8085D2E1E538BA100D58018 /* LaunchScreen.storyboard */; };
+		E82254191E4A2BFA005FA1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82254181E4A2BFA005FA1CB /* AppDelegate.swift */; };
+		E822541B1E4A2BFA005FA1CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822541A1E4A2BFA005FA1CB /* ViewController.swift */; };
+		E822541E1E4A2BFA005FA1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E822541C1E4A2BFA005FA1CB /* Main.storyboard */; };
+		E82254201E4A2BFA005FA1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E822541F1E4A2BFA005FA1CB /* Assets.xcassets */; };
+		E822542E1E4A2BFA005FA1CB /* EdgarAllanPoetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822542D1E4A2BFA005FA1CB /* EdgarAllanPoetryTests.swift */; };
+		E82254391E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82254381E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.swift */; };
+		E8BB92941E4BC4B300D554EE /* Magnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB92931E4BC4B300D554EE /* Magnet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E822542A1E4A2BFA005FA1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E822540D1E4A2BF9005FA1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E82254141E4A2BF9005FA1CB;
+			remoteInfo = EdgarAllanPoetry;
+		};
+		E82254351E4A2BFA005FA1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E822540D1E4A2BF9005FA1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E82254141E4A2BF9005FA1CB;
+			remoteInfo = EdgarAllanPoetry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0A17E51E54D89F00397AA2 /* WordListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListVC.swift; sourceTree = "<group>"; };
+		8A0A17E71E54E77100397AA2 /* Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		8A0EC4CD1E5B685E005F8676 /* DefautsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefautsManager.swift; sourceTree = "<group>"; };
+		E80508161E5CB8370080E9FD /* Poem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
+		E80508181E5CC0DB0080E9FD /* LoadListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadListVC.swift; sourceTree = "<group>"; };
+		E8085D2F1E538BA100D58018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E82254151E4A2BFA005FA1CB /* EdgarAllanPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgarAllanPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82254181E4A2BFA005FA1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E822541A1E4A2BFA005FA1CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E822541D1E4A2BFA005FA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E822541F1E4A2BFA005FA1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E82254241E4A2BFA005FA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82254291E4A2BFA005FA1CB /* EdgarAllanPoetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgarAllanPoetryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E822542D1E4A2BFA005FA1CB /* EdgarAllanPoetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgarAllanPoetryTests.swift; sourceTree = "<group>"; };
+		E822542F1E4A2BFA005FA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82254341E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgarAllanPoetryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82254381E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgarAllanPoetryUITests.swift; sourceTree = "<group>"; };
+		E822543A1E4A2BFA005FA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BB92931E4BC4B300D554EE /* Magnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magnet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E82254121E4A2BF9005FA1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254261E4A2BFA005FA1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254311E4A2BFA005FA1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0A17E21E54D5C600397AA2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E822541C1E4A2BFA005FA1CB /* Main.storyboard */,
+				E8085D2E1E538BA100D58018 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		8A0A17E31E54D5D200397AA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8BB92931E4BC4B300D554EE /* Magnet.swift */,
+				8A0A17E71E54E77100397AA2 /* Lists.swift */,
+				8A0EC4CD1E5B685E005F8676 /* DefautsManager.swift */,
+				E80508161E5CB8370080E9FD /* Poem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8A0A17E41E54D5DD00397AA2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E822541A1E4A2BFA005FA1CB /* ViewController.swift */,
+				8A0A17E51E54D89F00397AA2 /* WordListVC.swift */,
+				E80508181E5CC0DB0080E9FD /* LoadListVC.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		E822540C1E4A2BF9005FA1CB = {
+			isa = PBXGroup;
+			children = (
+				E82254171E4A2BFA005FA1CB /* EdgarAllanPoetry */,
+				E822542C1E4A2BFA005FA1CB /* EdgarAllanPoetryTests */,
+				E82254371E4A2BFA005FA1CB /* EdgarAllanPoetryUITests */,
+				E82254161E4A2BFA005FA1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E82254161E4A2BFA005FA1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E82254151E4A2BFA005FA1CB /* EdgarAllanPoetry.app */,
+				E82254291E4A2BFA005FA1CB /* EdgarAllanPoetryTests.xctest */,
+				E82254341E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E82254171E4A2BFA005FA1CB /* EdgarAllanPoetry */ = {
+			isa = PBXGroup;
+			children = (
+				E82254181E4A2BFA005FA1CB /* AppDelegate.swift */,
+				8A0A17E41E54D5DD00397AA2 /* VC */,
+				8A0A17E31E54D5D200397AA2 /* Model */,
+				8A0A17E21E54D5C600397AA2 /* Storyboards */,
+				E822541F1E4A2BFA005FA1CB /* Assets.xcassets */,
+				E82254241E4A2BFA005FA1CB /* Info.plist */,
+			);
+			path = EdgarAllanPoetry;
+			sourceTree = "<group>";
+		};
+		E822542C1E4A2BFA005FA1CB /* EdgarAllanPoetryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E822542D1E4A2BFA005FA1CB /* EdgarAllanPoetryTests.swift */,
+				E822542F1E4A2BFA005FA1CB /* Info.plist */,
+			);
+			path = EdgarAllanPoetryTests;
+			sourceTree = "<group>";
+		};
+		E82254371E4A2BFA005FA1CB /* EdgarAllanPoetryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E82254381E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.swift */,
+				E822543A1E4A2BFA005FA1CB /* Info.plist */,
+			);
+			path = EdgarAllanPoetryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E82254141E4A2BF9005FA1CB /* EdgarAllanPoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E822543D1E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetry" */;
+			buildPhases = (
+				E82254111E4A2BF9005FA1CB /* Sources */,
+				E82254121E4A2BF9005FA1CB /* Frameworks */,
+				E82254131E4A2BF9005FA1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdgarAllanPoetry;
+			productName = EdgarAllanPoetry;
+			productReference = E82254151E4A2BFA005FA1CB /* EdgarAllanPoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E82254281E4A2BFA005FA1CB /* EdgarAllanPoetryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82254401E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetryTests" */;
+			buildPhases = (
+				E82254251E4A2BFA005FA1CB /* Sources */,
+				E82254261E4A2BFA005FA1CB /* Frameworks */,
+				E82254271E4A2BFA005FA1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E822542B1E4A2BFA005FA1CB /* PBXTargetDependency */,
+			);
+			name = EdgarAllanPoetryTests;
+			productName = EdgarAllanPoetryTests;
+			productReference = E82254291E4A2BFA005FA1CB /* EdgarAllanPoetryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E82254331E4A2BFA005FA1CB /* EdgarAllanPoetryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82254431E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetryUITests" */;
+			buildPhases = (
+				E82254301E4A2BFA005FA1CB /* Sources */,
+				E82254311E4A2BFA005FA1CB /* Frameworks */,
+				E82254321E4A2BFA005FA1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E82254361E4A2BFA005FA1CB /* PBXTargetDependency */,
+			);
+			name = EdgarAllanPoetryUITests;
+			productName = EdgarAllanPoetryUITests;
+			productReference = E82254341E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E822540D1E4A2BF9005FA1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = igmstu;
+				TargetAttributes = {
+					E82254141E4A2BF9005FA1CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TLNX878N;
+						ProvisioningStyle = Automatic;
+					};
+					E82254281E4A2BFA005FA1CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E82254141E4A2BF9005FA1CB;
+					};
+					E82254331E4A2BFA005FA1CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E82254141E4A2BF9005FA1CB;
+					};
+				};
+			};
+			buildConfigurationList = E82254101E4A2BF9005FA1CB /* Build configuration list for PBXProject "EdgarAllanPoetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E822540C1E4A2BF9005FA1CB;
+			productRefGroup = E82254161E4A2BFA005FA1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E82254141E4A2BF9005FA1CB /* EdgarAllanPoetry */,
+				E82254281E4A2BFA005FA1CB /* EdgarAllanPoetryTests */,
+				E82254331E4A2BFA005FA1CB /* EdgarAllanPoetryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E82254131E4A2BF9005FA1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8085D301E538BA100D58018 /* LaunchScreen.storyboard in Resources */,
+				E82254201E4A2BFA005FA1CB /* Assets.xcassets in Resources */,
+				E822541E1E4A2BFA005FA1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254271E4A2BFA005FA1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254321E4A2BFA005FA1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E82254111E4A2BF9005FA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80508191E5CC0DB0080E9FD /* LoadListVC.swift in Sources */,
+				E80508171E5CB8370080E9FD /* Poem.swift in Sources */,
+				8A0A17E61E54D89F00397AA2 /* WordListVC.swift in Sources */,
+				8A0A17E81E54E77100397AA2 /* Lists.swift in Sources */,
+				8A0EC4CE1E5B685E005F8676 /* DefautsManager.swift in Sources */,
+				E822541B1E4A2BFA005FA1CB /* ViewController.swift in Sources */,
+				E82254191E4A2BFA005FA1CB /* AppDelegate.swift in Sources */,
+				E8BB92941E4BC4B300D554EE /* Magnet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254251E4A2BFA005FA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E822542E1E4A2BFA005FA1CB /* EdgarAllanPoetryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82254301E4A2BFA005FA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82254391E4A2BFA005FA1CB /* EdgarAllanPoetryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E822542B1E4A2BFA005FA1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E82254141E4A2BF9005FA1CB /* EdgarAllanPoetry */;
+			targetProxy = E822542A1E4A2BFA005FA1CB /* PBXContainerItemProxy */;
+		};
+		E82254361E4A2BFA005FA1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E82254141E4A2BF9005FA1CB /* EdgarAllanPoetry */;
+			targetProxy = E82254351E4A2BFA005FA1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8085D2E1E538BA100D58018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8085D2F1E538BA100D58018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E822541C1E4A2BFA005FA1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E822541D1E4A2BFA005FA1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E822543B1E4A2BFA005FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E822543C1E4A2BFA005FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E822543E1E4A2BFA005FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 34TLNX878N;
+				INFOPLIST_FILE = EdgarAllanPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E822543F1E4A2BFA005FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 34TLNX878N;
+				INFOPLIST_FILE = EdgarAllanPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E82254411E4A2BFA005FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdgarAllanPoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgarAllanPoetry.app/EdgarAllanPoetry";
+			};
+			name = Debug;
+		};
+		E82254421E4A2BFA005FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdgarAllanPoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgarAllanPoetry.app/EdgarAllanPoetry";
+			};
+			name = Release;
+		};
+		E82254441E4A2BFA005FA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EdgarAllanPoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EdgarAllanPoetry;
+			};
+			name = Debug;
+		};
+		E82254451E4A2BFA005FA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EdgarAllanPoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igm.EdgarAllanPoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EdgarAllanPoetry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E82254101E4A2BF9005FA1CB /* Build configuration list for PBXProject "EdgarAllanPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E822543B1E4A2BFA005FA1CB /* Debug */,
+				E822543C1E4A2BFA005FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E822543D1E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E822543E1E4A2BFA005FA1CB /* Debug */,
+				E822543F1E4A2BFA005FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E82254401E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82254411E4A2BFA005FA1CB /* Debug */,
+				E82254421E4A2BFA005FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E82254431E4A2BFA005FA1CB /* Build configuration list for PBXNativeTarget "EdgarAllanPoetryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82254441E4A2BFA005FA1CB /* Debug */,
+				E82254451E4A2BFA005FA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E822540D1E4A2BF9005FA1CB /* Project object */;
+}

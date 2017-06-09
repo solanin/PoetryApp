@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EdgarAllanPoetry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-qr-kzF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Magnetic Poetry" id="VeI-7X-JdK">
+                                        <barButtonItem key="leftBarButtonItem" title="?" id="GDl-Xp-PjQ">
+                                            <connections>
+                                                <action selector="help:" destination="BYZ-38-t0r" id="RCK-Kt-4JW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <rightBarButtonItems>
+                                            <barButtonItem tag="100" title="Save" id="eTf-9p-GOj">
+                                                <connections>
+                                                    <action selector="saveAndShare:" destination="BYZ-38-t0r" id="vhr-Le-KrR"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Load" id="juF-zM-cm4">
+                                                <connections>
+                                                    <segue destination="Mfo-uy-U1r" kind="popoverPresentation" identifier="showLoadSegue" popoverAnchorBarButtonItem="juF-zM-cm4" id="Zp8-D7-36X">
+                                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                    </segue>
+                                                </connections>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gV-bs-EVu">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Clear Poem" id="ZXR-DE-83L">
+                                        <connections>
+                                            <action selector="clearPoem:" destination="BYZ-38-t0r" id="Hqf-cO-r8q"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lm1-eD-l0X"/>
+                                    <barButtonItem title="Add Background" id="hFF-Av-qdk">
+                                        <connections>
+                                            <action selector="addBackgroundImage:" destination="BYZ-38-t0r" id="5RD-2t-Jaz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Hjd-xj-j3U"/>
+                                    <barButtonItem title="Add Word" id="4Ms-g2-JU1">
+                                        <connections>
+                                            <action selector="addWordButton:" destination="BYZ-38-t0r" id="VLr-AE-hZg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="CNJ-au-9e2"/>
+                                    <barButtonItem title="Change Words" id="fqm-64-yVN">
+                                        <connections>
+                                            <segue destination="40g-sS-1Ui" kind="popoverPresentation" identifier="showListSegue" popoverAnchorBarButtonItem="fqm-64-yVN" id="cdm-Z8-Qx4">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VLg-qr-kzF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2K2-Uc-hp4"/>
+                            <constraint firstItem="4gV-bs-EVu" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="9rW-hL-p5p"/>
+                            <constraint firstItem="VLg-qr-kzF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XUe-FL-Rir"/>
+                            <constraint firstAttribute="trailing" secondItem="VLg-qr-kzF" secondAttribute="trailing" id="hHd-jc-EZG"/>
+                            <constraint firstItem="4gV-bs-EVu" firstAttribute="trailing" secondItem="VLg-qr-kzF" secondAttribute="trailing" id="irS-vZ-3jP"/>
+                            <constraint firstItem="4gV-bs-EVu" firstAttribute="leading" secondItem="VLg-qr-kzF" secondAttribute="leading" id="tTM-IS-NSd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addBtn" destination="4Ms-g2-JU1" id="Yob-Wb-RU0"/>
+                        <outlet property="backgroundImage" destination="8bC-Xf-vdC" id="dBx-Rd-oGn"/>
+                        <outlet property="bgBtn" destination="hFF-Av-qdk" id="fc5-uh-PA2"/>
+                        <outlet property="clearBtn" destination="ZXR-DE-83L" id="NrW-KL-uIq"/>
+                        <outlet property="helpBtn" destination="GDl-Xp-PjQ" id="C4r-1E-soP"/>
+                        <outlet property="listBtn" destination="fqm-64-yVN" id="dtK-jH-RWz"/>
+                        <outlet property="loadBtn" destination="juF-zM-cm4" id="35z-jB-eKo"/>
+                        <outlet property="saveBtn" destination="eTf-9p-GOj" id="DAJ-DX-EEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="-350"/>
+        </scene>
+        <!--Word List-->
+        <scene sceneID="6gI-Di-L0t">
+            <objects>
+                <tableViewController title="Word List" id="mw3-uq-Lcz" customClass="WordListVC" customModule="EdgarAllanPoetry" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xKm-CX-vLM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="LKp-QY-x4Y">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LKp-QY-x4Y" id="CKH-cZ-icv">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mw3-uq-Lcz" id="Xfl-OS-JdU"/>
+                            <outlet property="delegate" destination="mw3-uq-Lcz" id="IVO-zS-mER"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="YNF-4B-22w">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="H3V-ie-jo4">
+                            <connections>
+                                <action selector="cancelTrappedWithSender:" destination="mw3-uq-Lcz" id="hhR-HU-uM9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uf7-pv-WOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="104.7976011994003"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Gd-tR-Ecc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="40g-sS-1Ui" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="avl-D2-6b4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mw3-uq-Lcz" kind="relationship" relationship="rootViewController" id="FnS-Vf-W9f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdM-wQ-QEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1518" y="105"/>
+        </scene>
+        <!--Load ListVC-->
+        <scene sceneID="fqH-mY-cZo">
+            <objects>
+                <tableViewController id="eSE-mY-Shh" customClass="LoadListVC" customModule="EdgarAllanPoetry" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qkC-Xr-3Zh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="NoD-zS-Pgh">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NoD-zS-Pgh" id="Gvd-fe-RAB">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eSE-mY-Shh" id="7Pi-6X-0QL"/>
+                            <outlet property="delegate" destination="eSE-mY-Shh" id="e4b-o3-FBH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="T1f-ud-M5h">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="hw0-UQ-zyK">
+                            <connections>
+                                <action selector="cancelTrappedWithSender:" destination="eSE-mY-Shh" id="HBA-EL-3jQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XrS-fo-I86" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2451" y="-670"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f1o-T6-ymF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mfo-uy-U1r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UlZ-61-AUY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eSE-mY-Shh" kind="relationship" relationship="rootViewController" id="74E-wm-lbO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lO3-hF-R3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="-670"/>
+        </scene>
+    </scenes>
+</document>
